@@ -3,7 +3,18 @@ header{
     color: white;
     text-align: center;
     height: 4rem;
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
     box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.1);
+}
+header a{
+    padding: .6rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+header a:hover{
+    color: rgba(245, 245, 245, 0.822);
 }

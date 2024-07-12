@@ -8,3 +8,14 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.dashboard,
+.contact,
+.home{
+
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    color: #3F88C5;
+    font-size: 4rem;
+}
