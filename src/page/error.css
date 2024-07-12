@@ -1,0 +1,14 @@
+
+div.error-page{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #3F88C5;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+div.error-page p{
+
+}
